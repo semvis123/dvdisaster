@@ -2,8 +2,7 @@ name: autobuild
 
 on:
   push:
-    tags:
-      - "v*"
+    branches: '**'
 
 jobs:
   mac:
