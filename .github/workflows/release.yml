@@ -7,7 +7,7 @@ on:
 
 jobs:
   mac:
-    runs-on: macos-11
+    runs-on: macos-10.13
     strategy:
       matrix:
         ui: [cli, gui]
